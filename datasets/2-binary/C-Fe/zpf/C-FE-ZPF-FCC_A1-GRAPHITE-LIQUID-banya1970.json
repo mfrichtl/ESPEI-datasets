@@ -1,6 +1,6 @@
 {
   "components": ["C", "FE"],
-  "phases": ["FCC_A1", "GRAPHITE_A9", "LIQUID"],
+  "phases": ["FCC_A1", "GRAPHITE", "LIQUID"],
   "conditions": {
     "P": 101325,
     "T": [1013.15, 1073.15, 1173.15, 1273.15, 1373.15, 1423.15, 1426.15, 1426.15, 1473.15, 1573.15, 1673.15, 1766.16]
@@ -8,13 +8,13 @@
   "broadcast_conditions": false,
   "output": "ZPF",
   "values": [
-	[["FCC_A1", ["C"], [0.0313]], ["GRAPHITE_A9", ["C"], [null]]],
-	[["FCC_A1", ["C"], [0.0403]], ["GRAPHITE_A9", ["C"], [null]]],
-	[["FCC_A1", ["C"], [0.0564]], ["GRAPHITE_A9", ["C"], [null]]],
-	[["FCC_A1", ["C"], [0.0730]], ["GRAPHITE_A9", ["C"], [null]]],
-	[["FCC_A1", ["C"], [0.0896]], ["GRAPHITE_A9", ["C"], [null]]],
-	[["FCC_A1", ["C"], [0.0976]], ["GRAPHITE_A9", ["C"], [null]]],
-	[["FCC_A1", ["C"], [0.0981]], ["GRAPHITE_A9", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0313]], ["GRAPHITE", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0403]], ["GRAPHITE", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0564]], ["GRAPHITE", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0730]], ["GRAPHITE", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0896]], ["GRAPHITE", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0976]], ["GRAPHITE", ["C"], [null]]],
+	[["FCC_A1", ["C"], [0.0981]], ["GRAPHITE", ["C"], [null]]],
 	[["FCC_A1", ["C"], [0.0981]], ["LIQUID", ["C"], [null]]],
 	[["FCC_A1", ["C"], [0.0877]], ["LIQUID", ["C"], [null]]],
 	[["FCC_A1", ["C"], [0.0614]], ["LIQUID", ["C"], [null]]],
