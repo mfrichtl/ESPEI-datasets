@@ -1,0 +1,21 @@
+{
+    "components": ["C", "FE"],
+    "phases": ["CEMENTITE_D011"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [3, 1],
+	"sublattice_configurations": [
+	    ["FE", "C"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "HM_FORM",
+    "values":   [[[
+	8000
+    ]]],
+    "reference": "Hallstedt2010",
+    "comment": "In text on page 130, took the corrected value."
+}
