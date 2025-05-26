@@ -1,3 +1,4 @@
 *.xlsx
 *.csv
 *.tar
+.DS_Store
