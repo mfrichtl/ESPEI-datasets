@@ -1,0 +1,45 @@
+{
+    "components": [
+        "C",
+        "FE",
+        "VA"
+    ],
+    "reference": "Benz and Elliot (1961)",
+    "bibtex": "Benz1961",
+    "weight": 1,
+    "comments": "",
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [
+            [
+                "BCC_A2",
+                [
+                    "C"
+                ],
+                [
+                    0.0009292526064897498
+                ]
+            ],
+            [
+                "CEMENTITE_D011",
+                [
+                    "C"
+                ],
+                [
+                    null
+                ]
+            ]
+        ]
+    ],
+    "phases": [
+        "BCC_A2",
+        "CEMENTITE_D011"
+    ],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            1000.15
+        ]
+    }
+}

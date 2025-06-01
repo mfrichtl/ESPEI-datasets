@@ -1,0 +1,45 @@
+{
+    "components": [
+        "C",
+        "FE",
+        "VA"
+    ],
+    "reference": "Benz and Elliot (1961)",
+    "bibtex": "Benz1961",
+    "weight": 1,
+    "comments": "",
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values": [
+        [
+            [
+                "LIQUID",
+                [
+                    "C"
+                ],
+                [
+                    0.17281447800466726
+                ]
+            ],
+            [
+                "GRAPHITE",
+                [
+                    "C"
+                ],
+                [
+                    null
+                ]
+            ]
+        ]
+    ],
+    "phases": [
+        "LIQUID",
+        "GRAPHITE"
+    ],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            1420.15
+        ]
+    }
+}
