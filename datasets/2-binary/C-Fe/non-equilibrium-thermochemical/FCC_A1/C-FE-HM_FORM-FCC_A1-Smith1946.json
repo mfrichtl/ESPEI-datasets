@@ -1,0 +1,23 @@
+{
+    "components": ["C", "FE"],
+    "phases": ["FCC_A1"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [3, 1],
+	"sublattice_configurations": [
+	    ["FE", "C"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 1273.15,
+	"X_C": 0.0004647958139264069
+    },
+    "output": "HM_FORM",
+    "values":   [[[
+	770
+    ]]],
+    "reference": "Smith (1946)",
+    "bibtext": "Smith1946",
+    "comment": "From text on page 1172. Took average value and converted from cal/gram-atomic."
+}

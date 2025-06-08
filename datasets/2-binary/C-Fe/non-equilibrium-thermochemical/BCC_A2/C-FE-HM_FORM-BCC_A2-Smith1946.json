@@ -1,0 +1,23 @@
+{
+    "components": ["C", "FE"],
+    "phases": ["BCC_A2"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [3, 1],
+	"sublattice_configurations": [
+	    ["FE", "C"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 1073.15,
+	"X_C": 0.0004647958139264069
+    },
+    "output": "HM_FORM",
+    "values":   [[[
+	1500
+    ]]],
+    "reference": "Smith (1946)",
+    "bibtext": "Smith1946",
+    "comment": "From text on page 1171. Converted from cal/gram-atomic."
+}

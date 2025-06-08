@@ -1,0 +1,40 @@
+{
+    "components": [
+        "C",
+        "FE",
+        "VA"
+    ],
+    "phases": [
+        "BCC_A2",
+        "GRAPHITE"
+    ],
+    "reference_state": {
+        "phases": [
+            "GRAPHITE"
+        ],
+        "conditions": {
+            "P": 101325,
+            "X_C": 1.0,
+            "T": 1023.15
+        }
+    },
+    "reference": "Smith (1946)",
+    "bibtex": "Smith1946",
+    "weight": 1,
+    "comments": "Table I and Narrative, page 1171",
+    "output": "ACR_C",
+    "conditions": {
+        "P": 101325,
+        "T": 1023.15,
+        "X_C": [
+            0.004632746559140248
+        ]
+    },
+    "values": [
+        [
+            [
+                0.016748132984357397
+            ]
+        ]
+    ]
+}
