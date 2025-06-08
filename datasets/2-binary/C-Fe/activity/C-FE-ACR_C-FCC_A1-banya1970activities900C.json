@@ -4,7 +4,7 @@
   "components": ["C", "FE"],
   "phases": ["FCC_A1"],
   "reference_state": {
-    "phases": ["FCC_A1"],
+    "phases": ["GRAPHITE"],
     "conditions": {
       "P": 101325,
       "T": 1173.15
