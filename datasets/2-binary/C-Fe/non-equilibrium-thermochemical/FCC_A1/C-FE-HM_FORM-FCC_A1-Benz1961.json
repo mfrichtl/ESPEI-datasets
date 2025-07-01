@@ -1,7 +1,6 @@
 {
-    "disabled": true,
     "components": ["C", "FE"],
-    "phases": ["CEMENTITE_D011"],
+    "phases": ["FCC_A1"],
     "solver": {
 	"mode": "manual",
 	"sublattice_site_ratios": [3, 1],
@@ -11,12 +10,13 @@
     },
     "conditions": {
 	"P": 101325,
-	"T": 298.15
+	"T": 1273.15
     },
-    "output": "SM_FORM",
+    "output": "HM_FORM",
     "values":   [[[
-	104.8
+	42287
     ]]],
-    "reference": "Hallstedt2010",
-    "comment": "In text on page 131"
+    "reference": "Benz (1961)",
+    "bibtext": "Benz1961",
+    "comment": "From text on page 330. Converted from cal."
 }

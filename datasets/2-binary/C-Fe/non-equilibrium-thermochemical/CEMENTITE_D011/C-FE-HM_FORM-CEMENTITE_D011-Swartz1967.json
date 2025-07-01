@@ -1,5 +1,4 @@
 {
-    "disabled": true,
     "components": ["C", "FE"],
     "phases": ["CEMENTITE_D011"],
     "solver": {
@@ -11,12 +10,11 @@
     },
     "conditions": {
 	"P": 101325,
-	"T": 298.15
+	"T": 988.15
     },
-    "output": "SM_FORM",
-    "values":   [[[
-	104.8
-    ]]],
-    "reference": "Hallstedt2010",
-    "comment": "In text on page 131"
+    "output": "HM_FORM",
+    "values":   [[[3535]]],
+    "reference": "Swartz (1967)",
+    "bibtex": "Swartz1967",
+    "comment": "From Table I for stress-free cementite, converted from kcal/mol to J/mol."
 }

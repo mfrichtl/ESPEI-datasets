@@ -1,0 +1,122 @@
+{
+    "components": [
+        "C",
+        "FE",
+        "VA"
+    ],
+    "phases": [
+        "CEMENTITE_D011"
+    ],
+    "solver": {
+        "mode": "manual",
+        "sublattice_site_ratios": [
+            3,
+            1
+        ],
+        "sublattice_configurations": [
+            [
+                "FE",
+                "C"
+            ]
+        ],
+        "comment": "Assumed stoichiometric cementite."
+    },
+    "reference": "Darken (1951)",
+    "bibtex": "Darken1951",
+    "weight": 1,
+    "comments": "Values from table 1. Converted to J/mol-formula assuming stoichiometric cementite",
+    "output": "HM_FORM",
+    "values": [
+        [
+            [
+                0.0
+            ],
+            [
+                3699.0
+            ],
+            [
+                4329.0
+            ],
+            [
+                4376.0
+            ],
+            [
+                7023.0
+            ],
+            [
+                9952.0
+            ],
+            [
+                12746.0
+            ],
+            [
+                15452.0
+            ],
+            [
+                18248.0
+            ],
+            [
+                21073.0
+            ],
+            [
+                23951.0
+            ],
+            [
+                26939.0
+            ],
+            [
+                30042.0
+            ],
+            [
+                33165.0
+            ],
+            [
+                36315.0
+            ],
+            [
+                39508.0
+            ],
+            [
+                42744.0
+            ],
+            [
+                45970.0
+            ],
+            [
+                49211.0
+            ],
+            [
+                52499.0
+            ],
+            [
+                55798.0
+            ]
+        ]
+    ],
+    "conditions": {
+        "P": 101325,
+        "T": [
+            0.0,
+            273.15,
+            298.15,
+            300.0,
+            400.0,
+            500.0,
+            600.0,
+            700.0,
+            800.0,
+            900.0,
+            1000.0,
+            1100.0,
+            1200.0,
+            1300.0,
+            1400.0,
+            1500.0,
+            1600.0,
+            1700.0,
+            1800.0,
+            1900.0,
+            2000.0
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "components": [
+        "C",
+        "FE",
+        "VA"
+    ],
+    "phases": [
+        "CEMENTITE_D011"
+    ],
+    "solver": {
+        "mode": "manual",
+        "sublattice_site_ratios": [
+            3,
+            1
+        ],
+        "sublattice_configurations": [
+            [
+                "FE",
+                "C"
+            ]
+        ],
+        "comment": "Assumed stoichiometric cementite."
+    },
+    "output": "CPM_FORM",
+    "reference": "Chipman (1972)",
+    "bibtex": "Chipman1972",
+    "weight": 1,
+    "comments": "From text on page 60. Distributed value over the temperature range provided in text. Converted to J/mol-K",
+    "values": [
+        [
+            [
+                -14.23512
+            ],
+            [
+                -14.23512
+            ],
+            [
+                -14.23512
+            ],
+            [
+                -14.23512
+            ],
+            [
+                -14.23512
+            ],
+            [
+                -14.23512
+            ]
+                    ]
+    ],
+    "conditions": {
+        "P": 101325,
+        "T": [1000,1100,1200,1300,1400,1421]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "components": ["C", "FE"],
+    "phases": ["LIQUID"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [1],
+	"sublattice_occupancies": [
+	[[0.99, 0.01]],
+	[[0.98, 0.02]],
+	[[0.975, 0.025]]
+	],
+	"sublattice_configurations": [
+	    [["C", "FE"]],
+	    [["C", "FE"]],
+	    [["C", "FE"]]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 1933.16
+    },
+    "output": "SM_MIX",
+    "values":   [[[
+	1.01,
+	0.893,
+	0.852
+    ]]],
+    "reference": "Richardson (1953)",
+    "bibtext": "Richardson1953",
+    "comment": "Table 2. Used average experimental temperature. Converted from cal/degC-gram-atom to J/mol."
+}

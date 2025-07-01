@@ -1,0 +1,46 @@
+{
+    "components": [
+        "C",
+        "FE",
+        "VA"
+    ],
+    "phases": [
+        "LIQUID",
+        "GRAPHITE"
+    ],
+    "reference_state": {
+        "phases": [
+            "GRAPHITE"
+        ],
+        "conditions": {
+            "P": 101325,
+            "X_C": 1.0
+        },
+        "T": 2058.15
+    },
+    "reference": "Richardson (1953)",
+    "bibtex": "Richardson1953",
+    "weight": 1,
+    "comments": "Figure 4, converted to Kelvin and ACR",
+    "output": "ACR_C",
+    "conditions": {
+        "P": 101325,
+        "T": 2058.15,
+        "X_C": [
+            0.01,
+            0.015,
+            0.02,
+            0.025
+        ]
+    },
+    "values": [
+        [
+            [
+                0.005913314613326,
+                0.0088596760087344,
+                0.0124404382747,
+                0.0167653701194236
+            ]
+        ]
+    ]
+}
