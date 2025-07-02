@@ -18,10 +18,10 @@
         },
         "T": 1473.15
     },
-    "reference": "Smith (1946)",
-    "bibtex": "Smith1946",
+    "reference": "Scheil (1959)",
+    "bibtex": "Scheil1959",
     "weight": 1,
-    "comments": "Table 5",
+    "comments": "Figure 1",
     "output": "ACR_C",
     "conditions": {
         "P": 101325,
