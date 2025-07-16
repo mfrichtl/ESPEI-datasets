@@ -1,8 +1,7 @@
 {
     "components": [
         "C",
-        "FE",
-        "VA"
+        "FE"
     ],
     "phases": [
         "CEMENTITE_D011"
@@ -21,35 +20,67 @@
         ],
         "comment": "Assumed stoichiometric cementite."
     },
-    "output": "CPM_FORM",
+    "atoms": 4,
     "reference": "Chipman (1972)",
     "bibtex": "Chipman1972",
     "weight": 1,
-    "comments": "From text on page 60. Distributed value over the temperature range provided in text. Converted to J/mol-K",
+    "comments": "Values from Table 5, converted from cal/mol/K to J/mol/K.",
+    "output": "CPM_FORM",
     "values": [
         [
             [
-                -14.23512
+                26.5684
             ],
             [
-                -14.23512
+                29.21478
             ],
             [
-                -14.23512
+                31.359080000000002
             ],
             [
-                -14.23512
+                32.12266
             ],
             [
-                -14.23512
+                27.719
             ],
             [
-                -14.23512
+                28.4512
+            ],
+            [
+                29.1834
+            ],
+            [
+                29.9156
+            ],
+            [
+                30.2817
+            ],
+            [
+                30.647800000000004
+            ],
+            [
+                31.0139
+            ],
+            [
+                31.380000000000003
             ]
-                    ]
+        ]
     ],
     "conditions": {
         "P": 101325,
-        "T": [1000,1100,1200,1300,1400,1421]
+        "T": [
+            298.15,
+            400.0,
+            450.0,
+            480.0,
+            500.0,
+            600.0,
+            700.0,
+            800.0,
+            850.0,
+            900.0,
+            950.0,
+            1000.0
+        ]
     }
 }

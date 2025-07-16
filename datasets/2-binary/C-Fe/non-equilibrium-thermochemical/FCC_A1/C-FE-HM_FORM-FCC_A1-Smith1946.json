@@ -1,21 +1,21 @@
 {
-    "components": ["C", "FE"],
+    "components": ["C", "FE", "VA"],
     "phases": ["FCC_A1"],
     "solver": {
 	"mode": "manual",
-	"sublattice_site_ratios": [3, 1],
+	"sublattice_site_ratios": [1, 1],
 	"sublattice_configurations": [
-	    ["FE", "C"]
+	    ["FE", ["C", "VA"]]
 	],
 	"sublattice_occupancies": [
-	[[1], [0.0004647958139264069]]
+	[[1], [0.000465, 0.999535]]
 	]
     },
     "conditions": {
 	"P": 101325,
 	"T": 1273.15
     },
-    "output": "HM_MIX",
+    "output": "HM_FORM",
     "values":   [[[
 	770
     ]]],
