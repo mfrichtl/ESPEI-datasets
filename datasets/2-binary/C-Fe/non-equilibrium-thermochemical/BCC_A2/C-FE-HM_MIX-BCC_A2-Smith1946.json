@@ -1,25 +1,25 @@
 {
     "components": ["C", "FE", "VA"],
-    "phases": ["FCC_A1"],
+    "phases": ["BCC_A2"],
     "solver": {
 	"mode": "manual",
-	"sublattice_site_ratios": [1, 1],
+	"sublattice_site_ratios": [1, 3],
 	"sublattice_configurations": [
 	    ["FE", ["C", "VA"]]
 	],
 	"sublattice_occupancies": [
-	[[1], [0.000465, 0.999535]]
+	    [1, [1.55E-4, 0.999845]]
 	]
     },
     "conditions": {
 	"P": 101325,
-	"T": 1273.15
+	"T": 1073.15
     },
-    "output": "HM_FORM",
+    "output": "HM_MIX",
     "values":   [[[
-	770
+	1500
     ]]],
     "reference": "Smith (1946)",
     "bibtext": "Smith1946",
-    "comment": "From text on page 1172. Took average value and converted from cal/gram-atomic."
+    "comment": "From text on page 1171. Converted from cal/gram-atomic."
 }

@@ -1,0 +1,22 @@
+{
+    "components": ["C", "FE"],
+    "phases": ["CEMENTITE_D011"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [3, 1],
+	"sublattice_configurations": [
+	    ["FE", "C"]
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 68 
+    },
+    "output": "SM_FORM",
+    "values":   [[[
+	10.75
+    ]]],
+    "reference": "Seltz (1939)",
+    "bibtex": "Seltz1939",
+    "comment": "From narrative on page 268, converted from e.u. to J/mol/K."
+}
