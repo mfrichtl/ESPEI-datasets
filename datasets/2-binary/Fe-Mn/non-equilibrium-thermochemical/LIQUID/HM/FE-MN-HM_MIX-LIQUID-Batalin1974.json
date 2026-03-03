@@ -1,0 +1,40 @@
+{
+  "components": ["FE", "MN"],
+  "phases": ["LIQUID"],
+  "conditions": {
+    "P": 101325,
+    "T": [1700]
+  },
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1],
+    "sublattice_configurations": [
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]],
+      [["FE", "MN"]]
+    ],
+    "sublattice_occupancies": [
+	[[0.950, 0.050]],
+	[[0.874, 0.126]],
+	[[0.826, 0.174]],
+	[[0.817, 0.183]],
+	[[0.730, 0.270]],
+	[[0.618, 0.382]],
+	[[0.596, 0.404]],
+	[[0.460, 0.540]],
+	[[0.299, 0.701]],
+	[[0.201, 0.799]]
+    ]
+  },
+  "output": "HM_MIX",
+  	"values": [[[-188, -615, -658, -776, -988, -1060, -1008, -940, -593, -375]]],
+  "reference": "Batalin1974",
+  "comment": "Taken from Figure 1 in Witusiewicz2003. Could not find original reference."
+}
