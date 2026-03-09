@@ -1,0 +1,27 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": [1500, 1520, 1540, 1560, 1580, 1600, 1620, 1640, 1660]
+  },
+  "output": "CPM",
+  "values":   [[
+	[35.87],
+	[36.12],
+	[36.37],
+	[36.62],
+	[36.88],
+	[37.14],
+	[37.40],
+	[37.67],
+	[37.94]
+		]],
+  "reference": "Cezairliyan1974-1",
+  "comment": "Table A-1, Specimen 1."
+}
