@@ -1,0 +1,25 @@
+{
+  "components": ["CU", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["CU", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": [83.83, 87.43, 94.72, 119.55, 139.05, 145.43, 183.11]
+  },
+  "output": "CPM",
+  "values":   [
+		[[13.4689356],
+ [13.942044],
+ [15.1897104],
+ [18.233514],
+ [19.929167999999997],
+ [20.339474399999997],
+ [22.1146776]]
+		],
+  "reference": "Eucken1930",
+  "comment": "Table 2"
+}
