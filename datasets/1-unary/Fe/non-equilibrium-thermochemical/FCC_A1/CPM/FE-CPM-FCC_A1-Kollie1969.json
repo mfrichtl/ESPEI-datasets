@@ -1,0 +1,26 @@
+{
+  "disabled": true,
+  "components": ["FE", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": [1171.87431817, 1273.86676241, 1322.87830306, 1372.88371347,
+       1421.90137025, 1471.91289678]
+  },
+  "output": "CPM",
+  "values":   [[
+		[36.82005174774102],
+[36.761164187983205],
+[36.851108885421496],
+[36.893276191599256],
+[37.03088827862978],
+[37.12072297439978]
+		]],
+  "reference": "Kollie1969",
+  "comment": "Figure 8"
+}
