@@ -1,0 +1,24 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1184, 1200, 1300, 1400, 1500, 1600, 1665]
+	},
+  "output": "CPM",
+  "values":   [
+[[34.038684],
+ [33.91308],
+ [34.792308],
+ [35.420328000000005],
+ [36.048348],
+ [36.676368],
+ [37.095048]]
+		],
+  "reference": "Anderson1962"
+}
