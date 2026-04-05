@@ -1,0 +1,19 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["BCC_A2", "FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 3],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [673.15, 773.17]
+	},
+  "output": "DH-BCC_A2-FCC_A1",
+  "values":   [
+		[[6112.728], [5694.048]]
+		],
+  "reference": "Scheil1960",
+  "comments": "DH BCC_A2 -> FCC_A1"
+}
