@@ -24,42 +24,42 @@
     "reference": "Chipman (1972)",
     "bibtex": "Chipman1972",
     "weight": 1,
-    "comments": "Values from table 5. Converted to J/mol.",
-    "output": "SM_FORM",
+    "comments": "Values from table 5. Converted to J/mol-atom.",
+    "output": "HM_FORM",
     "values": [
         [
             [
-                4.25722
+	    	1565.08
             ],
             [
-                5.9099
+                1708.64
             ],
             [
-                6.63164
+                1778.72
             ],
             [
-                7.24878
+                1852.2
             ],
             [
-                7.4266
+                1876.52
             ],
             [
-                7.33246
+                1862.14
             ],
             [
-                7.018660000000001
+                1802.26
             ],
             [
-                6.76762
+                1749.96
             ],
             [
-                6.42244
+                1676.48
             ],
             [
-                5.9831199999999995
+                1573.97
             ],
             [
-                5.386900000000001
+                1425.18
             ]
         ]
     ],

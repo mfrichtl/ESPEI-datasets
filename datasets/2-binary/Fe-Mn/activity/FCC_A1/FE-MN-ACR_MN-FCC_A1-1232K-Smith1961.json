@@ -1,0 +1,31 @@
+{
+    "components": [
+        "FE",
+	"MN",
+        "VA"
+    ],
+    "phases": [
+        "FCC_A1"
+    ],
+    "reference_state": {
+        "phases": [
+            "CUB_A13"
+        ],
+        "conditions": {
+            "P": 101325,
+            "X_MN": 1.0,
+            "T": 1232
+        }
+    },
+    "reference": "Smith (1961)",
+    "bibtex": "Smith1961",
+    "weight": 1,
+    "comments": "Figure 2",
+    "output": "ACR_MN",
+    "conditions": {
+        "P": 101325,
+        "T": 1232,
+        "X_MN": [0.092, 0.293, 0.293, 0.617, 0.654]
+    },
+    "values": [[[0.056, 0.253, 0.262, 0.629, 0.648]]]
+}

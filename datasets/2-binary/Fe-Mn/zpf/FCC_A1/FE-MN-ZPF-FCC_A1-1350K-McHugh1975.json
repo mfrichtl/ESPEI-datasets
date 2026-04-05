@@ -1,0 +1,24 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T": [1350, 1350, 1350, 1350, 1350, 1350, 1350, 1350]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["FCC_A1", ["MN"],  [0.134]]],
+	    [["FCC_A1", ["MN"],  [0.169]]],
+	    [["FCC_A1", ["MN"],  [0.248]]],
+	    [["FCC_A1", ["MN"],  [0.269]]],
+	    [["FCC_A1", ["MN"],  [0.367]]],
+	    [["FCC_A1", ["MN"],  [0.498]]],
+	    [["FCC_A1", ["MN"],  [0.559]]],
+	    [["FCC_A1", ["MN"],  [0.688]]]
+  ],
+    "reference": "McHugh1975",
+    "comment": "Table 6.23"
+}
+

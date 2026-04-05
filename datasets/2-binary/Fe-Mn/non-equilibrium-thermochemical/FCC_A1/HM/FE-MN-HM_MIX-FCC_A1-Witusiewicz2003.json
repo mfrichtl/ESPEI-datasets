@@ -1,0 +1,29 @@
+{
+  "components": ["FE", "MN", "VA"],
+  "phases": ["FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": 1409
+  },
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_configurations": [
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"]
+    ],
+    "sublattice_occupancies": [
+	[[0.70, 0.30], 1],
+	[[0.60, 0.40], 1],
+	[[0.50, 0.50], 1],
+	[[0.43, 0.57], 1]
+    ]
+  },
+  "output": "HM_MIX",
+	"values": [[[-1702, -1886, -1604, -1201]]],
+	"uncertainty": [[[543, 611, 553, 566]]],
+  "reference": "Witusiewicz2003",
+  "comment": "Table XIII - Enthalpy of formation of FCC-FeMn alloys at 1409 K with reference to pure fcc Fe and fcc Mn. Values in J/mol. Uncertainty is standard error from Table 13."
+}

@@ -1,0 +1,20 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T": [1232, 1232, 1232, 1232]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["FCC_A1", ["MN"],  [0.092]]],
+	    [["FCC_A1", ["MN"],  [0.293]]],
+	    [["FCC_A1", ["MN"],  [0.617]]],
+	    [["FCC_A1", ["MN"],  [0.654]]]
+  ],
+    "reference": "Smith1961",
+    "comment": "Figure 2."
+}
+

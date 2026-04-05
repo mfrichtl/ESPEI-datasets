@@ -1,0 +1,17 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["BCC_A2", "LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": 1811 
+	},
+  "output": "DH-BCC_A2-LIQUID",
+  "values":   [[[14400]]],
+  "reference": "Braun1965",
+  "comments": "DH BCC_A2 -> LIQUID"
+}

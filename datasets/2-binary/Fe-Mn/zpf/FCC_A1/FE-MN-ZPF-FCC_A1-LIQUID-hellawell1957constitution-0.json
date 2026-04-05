@@ -1,0 +1,44 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["LIQUID", "FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T": 
+		[
+1720.63041709079,
+1685.93160557424,
+1674.15284833252,
+1620.31487727844,
+1604.66091229389,
+1571.50640147033,
+1526.52926689085,
+1688.45333196084,
+1641.65593643543,
+1584.66795087549,
+1565.54414461793,
+1543.11898438053,
+1508.23593350435
+		]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+	[
+	[["LIQUID", ["MN"], [0.228]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [0.318]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [0.349]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [0.500]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [0.557]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [0.657]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [0.800]], ["FCC_A1", ["MN"], [null]]],
+	[["LIQUID", ["MN"], [null]], ["FCC_A1", ["MN"], [0.223]]],
+	[["LIQUID", ["MN"], [null]], ["FCC_A1", ["MN"], [0.350]]],
+	[["LIQUID", ["MN"], [null]], ["FCC_A1", ["MN"], [0.500]]],
+	[["LIQUID", ["MN"], [null]], ["FCC_A1", ["MN"], [0.557]]],
+	[["LIQUID", ["MN"], [null]], ["FCC_A1", ["MN"], [0.656]]],
+	[["LIQUID", ["MN"], [null]], ["FCC_A1", ["MN"], [0.800]]]
+	],
+    "reference": "hellawell1957constitution",
+    "comment": "Figure 21."
+}
+

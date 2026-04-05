@@ -1,0 +1,31 @@
+{
+  "components": ["FE", "MN", "VA"],
+  "phases": ["CUB_A13"],
+  "conditions": {
+    "P": 101325,
+    "T": 1073
+  },
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_configurations": [
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"]
+    ],
+    "sublattice_occupancies": [
+	[[0.30, 0.70], 1],
+	[[0.30, 0.70], 1],
+	[[0.20, 0.80], 1],
+	[[0.20, 0.80], 1],
+	[[0.10, 0.90], 1]
+    ]
+  },
+  "output": "HM_MIX",
+	"values": [[[-1693, -1047, -1298, -686, -389]]],
+	"uncertainty": [[[400, 400, 400, 400, 400]]],
+  "reference": "Kubitz1987",
+  "comment": "Results from Table 3 for CUB_A13 Fe-Mn alloys at 873K."
+}

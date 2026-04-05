@@ -1,0 +1,40 @@
+{
+  "disabled": true,
+  "components": ["FE", "MN", "VA"],
+  "phases": ["FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": 1350
+  },
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_configurations": [
+      	[["FE", "MN"], "VA"],
+	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+	[["FE", "MN"], "VA"],
+      	[["FE", "MN"], "VA"],
+	[["FE", "MN"], "VA"],
+	[["FE", "MN"], "VA"]
+    ],
+    "sublattice_occupancies": [
+	[[0.866, 0.134], 1],
+	[[0.831, 0.169], 1],
+	[[0.752, 0.248], 1],
+	[[0.731, 0.269], 1],
+	[[0.633, 0.367], 1],
+	[[0.502, 0.498], 1],
+	[[0.441, 0.559], 1],
+	[[0.312, 0.688], 1],
+	[[0.249, 0.751], 1]
+    ]
+  },
+  "output": "HM_FORM",
+	"values": [[[30, 170, 240, 230, 160, -440, -830, -2630, -3730]]],
+	"uncertainty": [[[]]],
+  "reference": "McHugh1975",
+  "comment": "Table 6.26 for Fe-Mn alloys. Resulting HM_MIX seems to be way off. Maybe his endmember energies are very different."
+}

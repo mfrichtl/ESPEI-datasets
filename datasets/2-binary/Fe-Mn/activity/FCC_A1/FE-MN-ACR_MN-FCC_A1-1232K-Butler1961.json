@@ -1,0 +1,31 @@
+{
+    "components": [
+        "FE",
+	"MN",
+        "VA"
+    ],
+    "phases": [
+        "FCC_A1"
+    ],
+    "reference_state": {
+        "phases": [
+            "CUB_A13"
+        ],
+        "conditions": {
+            "P": 101325,
+            "X_MN": 1.0,
+            "T": 1232 
+        }
+    },
+    "reference": "Butler (1961)",
+    "bibtex": "Butler1961",
+    "weight": 1,
+    "comments": "Table V",
+    "output": "ACR_MN",
+    "conditions": {
+        "P": 101325,
+        "T": 1232,
+        "X_MN": [0.656, 0.505, 0.295]
+    },
+    "values": [[[0.605, 0.477, 0.242]]]
+}

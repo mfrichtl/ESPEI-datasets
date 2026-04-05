@@ -1,0 +1,23 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+	1409, 1409, 1409, 1409
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["FCC_A1", ["MN"],  [0.30]]],
+	    [["FCC_A1", ["MN"],  [0.40]]],
+	    [["FCC_A1", ["MN"],  [0.50]]],
+	    [["FCC_A1", ["MN"],  [0.57]]]
+  ],
+    "reference": "Witusiewicz2003",
+    "comment": "Single-phase FCC_A1 data from Witusiewicz2003, primarily used for enthalpies of mixing."
+}
+

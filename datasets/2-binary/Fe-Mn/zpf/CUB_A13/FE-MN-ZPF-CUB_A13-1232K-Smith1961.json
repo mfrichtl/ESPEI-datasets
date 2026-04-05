@@ -1,0 +1,17 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["CUB_A13"],
+  "conditions": {
+	  "P": 101325,
+	    "T": [1232]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["CUB_A13", ["MN"],  [0.742]]]
+  ],
+    "reference": "Smith1961",
+    "comment": "Figure 2."
+}
+

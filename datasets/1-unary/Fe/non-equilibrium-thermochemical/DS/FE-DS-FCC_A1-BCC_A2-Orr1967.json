@@ -1,0 +1,17 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["BCC_A2", "FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 3],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": [1665]
+	},
+  "output": "DS-FCC_A1-BCC_A2",
+  "values":   [[[0.50283468]]],
+  "reference": "Orr1967",
+  "comments": "DS FCC_A1 -> BCC_A2"
+}

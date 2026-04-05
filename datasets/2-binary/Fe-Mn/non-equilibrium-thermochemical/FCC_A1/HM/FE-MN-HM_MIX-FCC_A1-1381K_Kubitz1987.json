@@ -1,0 +1,23 @@
+{
+  "components": ["FE", "MN", "VA"],
+  "phases": ["FCC_A1"],
+  "conditions": {
+    "P": 101325,
+    "T": 1381
+  },
+  "solver": {
+    "mode": "manual",
+    "sublattice_site_ratios": [1, 1],
+    "sublattice_configurations": [
+      	[["FE", "MN"], "VA"]
+    ],
+    "sublattice_occupancies": [
+	[[0.60, 0.40], 1]
+    ]
+  },
+  "output": "HM_MIX",
+	"values": [[[-2624]]],
+	"uncertainty": [[[400]]],
+  "reference": "Kubitz1987",
+  "comment": "Results from Table 1 for FCC_A1 Fe-Mn alloys."
+}

@@ -1,0 +1,36 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["FCC_A1"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+	1423, 1443, 1443, 1443, 1443, 1423, 1381, 1423, 1443, 1423, 1443, 1443, 1443, 1443, 1443, 1443, 1443
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["FCC_A1", ["MN"],  [0.05]]],
+	    [["FCC_A1", ["MN"],  [0.15]]],
+	    [["FCC_A1", ["MN"],  [0.20]]],
+	    [["FCC_A1", ["MN"],  [0.20]]],
+	    [["FCC_A1", ["MN"],  [0.30]]],
+	    [["FCC_A1", ["MN"],  [0.30]]],
+	    [["FCC_A1", ["MN"],  [0.40]]],
+	    [["FCC_A1", ["MN"],  [0.40]]],
+	    [["FCC_A1", ["MN"],  [0.50]]],
+	    [["FCC_A1", ["MN"],  [0.50]]],
+	    [["FCC_A1", ["MN"],  [0.50]]],
+	    [["FCC_A1", ["MN"],  [0.60]]],
+	    [["FCC_A1", ["MN"],  [0.70]]],
+	    [["FCC_A1", ["MN"],  [0.80]]],
+	    [["FCC_A1", ["MN"],  [0.80]]],
+	    [["FCC_A1", ["MN"],  [0.90]]],
+	    [["FCC_A1", ["MN"],  [0.90]]]
+  ],
+    "reference": "Kubitz1987",
+    "comment": "Single-phase FCC_A1 data from Kubitz1987, primarily used for enthalpies of mixing."
+}
+

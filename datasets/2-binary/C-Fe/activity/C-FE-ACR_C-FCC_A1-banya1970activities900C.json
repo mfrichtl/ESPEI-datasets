@@ -6,6 +6,7 @@
   "reference_state": {
     "phases": ["GRAPHITE"],
     "conditions": {
+	"X_C": 1,
       "P": 101325,
       "T": 1173.15
     }

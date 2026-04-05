@@ -1,0 +1,31 @@
+{
+    "components": [
+        "FE",
+	"MN",
+        "VA"
+    ],
+    "phases": [
+        "CUB_A13"
+    ],
+    "reference_state": {
+        "phases": [
+            "CUB_A13"
+        ],
+        "conditions": {
+            "P": 101325,
+            "X_MN": 1.0,
+            "T": 1350
+        }
+    },
+    "reference": "McHugh (1975)",
+    "bibtex": "McHugh1975",
+    "weight": 1,
+    "comments": "Table 6.23",
+    "output": "ACR_MN",
+    "conditions": {
+        "P": 101325,
+        "T": 1350,
+        "X_MN": [0.860]
+    },
+    "values": [[[0.910]]]
+}

@@ -1,0 +1,30 @@
+{
+  "components": ["FE", "MN"],
+    "phases": ["LIQUID"],
+  "conditions": {
+	  "P": 101325,
+	    "T":
+      [
+	1700, 1700, 1700, 1700, 1700, 1700, 1700, 1700, 1700, 1700
+
+      ]
+  },
+  "broadcast_conditions": false,
+  "output": "ZPF",
+  "values":
+    [
+	    [["LIQUID", ["MN"],  [0.050]]],
+	    [["LIQUID", ["MN"],  [0.126]]],
+	    [["LIQUID", ["MN"],  [0.174]]],
+	    [["LIQUID", ["MN"],  [0.183]]],
+	    [["LIQUID", ["MN"],  [0.270]]],
+	    [["LIQUID", ["MN"],  [0.382]]],
+	    [["LIQUID", ["MN"],  [0.404]]],
+	    [["LIQUID", ["MN"],  [0.540]]],
+	    [["LIQUID", ["MN"],  [0.701]]],
+	    [["LIQUID", ["MN"],  [0.799]]]
+  ],
+    "reference": "Batalin1974",
+    "comment": "Single-phase LIQUID data from Batalin1974 (taken from Witusiewicz2003), primarily used for enthalpies of mixing."
+}
+

@@ -1,0 +1,17 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["BCC_A2", "LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 3],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": [1809]
+	},
+  "output": "DS-BCC_A2-LIQUID",
+  "values":   [[[7.63756056]]],
+  "reference": "Orr1967",
+  "comments": "DS BCC_A2 -> LIQUID"
+}
