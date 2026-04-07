@@ -1,4 +1,5 @@
 {
+  "disabled": true,
   "components": ["FE", "VA"],
   "phases": ["FCC_A1"],
   "solver": {

@@ -1,4 +1,5 @@
 {
+  "disabled": true,
   "components": ["FE", "VA"],
   "phases": ["FCC_A1"],
   "solver": {
@@ -40,5 +41,5 @@
 		 [39.900203999999995],
 		 [40.737564]]
 		],
-  "reference": "Braun1965"
+  "reference": "Orr1967"
 }
