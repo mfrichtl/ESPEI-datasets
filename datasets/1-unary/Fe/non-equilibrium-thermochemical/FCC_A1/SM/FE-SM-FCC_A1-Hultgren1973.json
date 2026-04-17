@@ -1,0 +1,18 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1184, 1200, 1300, 1400, 1500, 1600, 1665]
+	},
+  "output": "SM",
+  "values":   [
+		[[75.962], [76.417], [79.173], [81.787], [84.277], [86.661], [88.16]]
+		],
+  "reference": "Hultgren1973"
+}

@@ -1,0 +1,17 @@
+{
+  "components": ["FE"],
+  "phases": ["LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_configurations": [["FE"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1811]
+	},
+  "output": "CPM",
+  "values":   [[[47]]],
+  "uncertainty": [[[1]]],
+  "reference": "Barth1993"
+}

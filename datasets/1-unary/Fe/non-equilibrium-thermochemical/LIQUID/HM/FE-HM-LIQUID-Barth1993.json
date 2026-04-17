@@ -1,0 +1,20 @@
+{
+  "components": ["FE"],
+  "phases": ["LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_configurations": [["FE"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1802.9357074948502,
+ 1740.871454603074,
+ 1669.9932261131357,
+ 1636.4406987799082,
+ 1609.74623672952]
+	},
+  "output": "HM",
+  "values":   [ [[71874.6], [69436.5], [66074], [63499.3], [62086.3]] ],
+  "reference": "Barth1993"
+}

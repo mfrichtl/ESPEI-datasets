@@ -1,0 +1,18 @@
+{
+  "components": ["FE", "VA"],
+  "phases": ["FCC_A1"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	  "sublattice_configurations": [["FE", "VA"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1184, 1200, 1300, 1400, 1500, 1600, 1665]
+	},
+  "output": "GM",
+  "values":   [
+		[[-55437], [-56656], [-64437], [-72486], [-80790], [-89338], [-95020]]
+		],
+  "reference": "Barin1995"
+}

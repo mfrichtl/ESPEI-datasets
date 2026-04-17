@@ -1,0 +1,16 @@
+{
+  "components": ["NI"],
+  "phases": ["LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_configurations": [["NI"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1463, 1500, 1565, 1681, 1889]
+	},
+  "output": "DH",
+  "values":   [[[52610.8], [54386.7], [57749.4], [62388.1], [71509.1]]],
+  "reference": "Schafers1994"
+}

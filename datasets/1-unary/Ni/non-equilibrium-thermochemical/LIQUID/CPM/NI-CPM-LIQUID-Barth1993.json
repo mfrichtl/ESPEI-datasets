@@ -1,0 +1,17 @@
+{
+  "components": ["NI"],
+  "phases": ["LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_configurations": [["NI"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1728.15]
+	},
+  "output": "DH",
+  "values":   [[[41]]],
+  "uncertainty": [[[2]]],
+  "reference": "Barth1993"
+}

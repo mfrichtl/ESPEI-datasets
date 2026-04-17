@@ -1,0 +1,26 @@
+{
+  "components": ["FE"],
+  "phases": ["LIQUID"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_configurations": [["FE"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [1613, 1649, 1654, 1711, 1737, 1773, 1819, 1904, 2035]
+	},
+  "output": "HM",
+  "values":   [
+		[[63316.6],
+ [64806.6],
+ [65207.7],
+ [68681.6],
+ [69520.1],
+ [70870.0],
+ [73829.8],
+ [76969.2],
+ [81876.5]]
+	],
+  "reference": "Schafers1994"
+}
