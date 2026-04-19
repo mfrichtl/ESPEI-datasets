@@ -1,0 +1,40 @@
+{
+  "components": ["C"],
+  "phases": ["DIAMOND_A4"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1],
+	  "sublattice_configurations": [["C"]]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T":  [
+			298.15,
+			300,
+			400,
+			500,
+			600,
+			700,
+			800,
+			900,
+			1000,
+			1100,
+			1200
+		]
+	},
+  "output": "GM_FORM",
+  "values":   [
+		[[2900],
+ [2907],
+ [3281],
+ [3700],
+ [4141],
+ [4594],
+ [5056],
+ [5523],
+ [5991],
+ [6459],
+ [6924]]
+],
+  "reference": "Pankratz1982"
+}
