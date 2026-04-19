@@ -14,5 +14,6 @@
   "values":   [
 		[[75.962], [76.417], [79.173], [81.787], [84.277], [86.661], [88.16]]
 		],
-  "reference": "Hultgren1973"
+  "reference": "Hultgren1973",
+  "comments": "Data from Barin1995."
 }
