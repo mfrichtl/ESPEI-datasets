@@ -1,0 +1,36 @@
+{
+    "components": [
+        "C",
+        "FE"
+    ],
+    "phases": [
+        "CEMENTITE_D011"
+    ],
+    "solver": {
+        "mode": "manual",
+        "sublattice_site_ratios": [
+            3,
+            1
+        ],
+        "sublattice_configurations": [
+            [
+                "FE",
+                "C"
+            ]
+        ],
+        "comment": "Assumed stoichiometric cementite."
+    },
+    "atoms": 4,
+    "conditions": {
+        "P": 101325,
+        "T": [298.15, 300, 400, 485]
+    },
+    "output": "CPM",
+    "values": [[
+		[104.600], [104.602], [136.903], [159.607]
+        ]],
+    "reference": "Reed (2020)",
+    "bibtex": "Reed2020",
+    "weight": 1,
+    "comments": "Values from Barin1995."
+}

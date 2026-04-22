@@ -25,7 +25,7 @@
     "bibtex": "Seltz1939",
     "weight": 1,
     "comments": "Values from Table 2, converted from cal/mol/K to J/mol/K.",
-    "output": "CPM_FORM",
+    "output": "CPM",
     "values": [
         [
             [

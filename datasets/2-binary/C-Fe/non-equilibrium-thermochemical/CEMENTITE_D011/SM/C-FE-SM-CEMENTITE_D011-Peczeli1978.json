@@ -1,0 +1,47 @@
+{
+    "components": [
+        "C",
+        "FE"
+    ],
+    "phases": [
+        "CEMENTITE_D011"
+    ],
+    "solver": {
+        "mode": "manual",
+        "sublattice_site_ratios": [
+            3,
+            1
+        ],
+        "sublattice_configurations": [
+            [
+                "FE",
+                "C"
+            ]
+        ],
+        "comment": "Assumed stoichiometric cementite."
+    },
+    "atoms": 4,
+    "conditions": {
+        "P": 101325,
+        "T": [485, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500]
+    },
+    "output": "CPM",
+    "values": [[
+		[[174.099],
+ [177.553],
+ [198.352],
+ [216.131],
+ [231.7],
+ [245.581],
+ [258.13],
+ [269.602],
+ [280.184],
+ [290.02],
+ [299.219],
+ [307.87]]
+        ]],
+    "reference": "Pezceli (1978)",
+    "bibtex": "Pezceli1978",
+    "weight": 1,
+    "comments": "Values from Barin1995."
+}

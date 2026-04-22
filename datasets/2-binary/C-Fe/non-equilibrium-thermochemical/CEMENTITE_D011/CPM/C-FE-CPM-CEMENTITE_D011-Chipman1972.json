@@ -25,7 +25,7 @@
     "bibtex": "Chipman1972",
     "weight": 1,
     "comments": "Values from Table 5, converted from cal/mol/K to J/mol/K.",
-    "output": "CPM_FORM",
+    "output": "CPM",
     "values": [
         [
             [

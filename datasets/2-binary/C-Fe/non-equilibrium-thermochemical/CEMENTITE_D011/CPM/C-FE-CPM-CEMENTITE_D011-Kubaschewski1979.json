@@ -1,0 +1,36 @@
+{
+    "components": [
+        "C",
+        "FE"
+    ],
+    "phases": [
+        "CEMENTITE_D011"
+    ],
+    "solver": {
+        "mode": "manual",
+        "sublattice_site_ratios": [
+            3,
+            1
+        ],
+        "sublattice_configurations": [
+            [
+                "FE",
+                "C"
+            ]
+        ],
+        "comment": "Assumed stoichiometric cementite."
+    },
+    "atoms": 4,
+    "conditions": {
+        "P": 101325,
+        "T": [298.15, 300, 400, 485, 485, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500]
+    },
+    "output": "CPM",
+    "values": [[
+		[105.868], [106.023], [114.391], [121.503], [113.282], [113.47], [114.725], [115.98], [117.236], [118.491], [119.746], [121.001], [122.256], [123.512], [124.767], [126.022]
+        ]],
+    "reference": "Kubaschewski (1979)",
+    "bibtex": "Kubaschewski1979",
+    "weight": 1,
+    "comments": "Values from Barin1995."
+}
