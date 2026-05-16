@@ -40,6 +40,7 @@
  [64.68606],
  [64.8954]]
 	],
-  "reference": "Anderson1962",
+  "reference": "Anderson (1962)",
+	"bibtex": "Anderson1962",
   "comments": "SM - S298.15 values."
 }

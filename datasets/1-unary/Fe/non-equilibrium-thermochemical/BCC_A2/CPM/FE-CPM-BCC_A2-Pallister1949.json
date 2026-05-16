@@ -40,6 +40,7 @@
 [40.84313621510541],
 [36.22261980835932]
 		]],
-  "reference": "Pallister1949",
+  "reference": "Pallister (1949)",
+	"bibtex": "Pallister1949",
   "comment": "Data from Kollie1967 Figure 6."
 }

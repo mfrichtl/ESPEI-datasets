@@ -43,6 +43,7 @@
  [62580.0996],
  [66980.4264]]
 		],
-  "reference": "Orr1967",
+  "reference": "Orr (1967)",
+	"bibtex": "Orr1967",
   "comment": "H - H298 values"
 }

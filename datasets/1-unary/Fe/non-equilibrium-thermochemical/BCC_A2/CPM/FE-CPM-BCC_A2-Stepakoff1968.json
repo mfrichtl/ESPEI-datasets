@@ -65,6 +65,7 @@
  [24.7607352],
  [25.204535999999997]]
 		],
-  "reference": "Stepakoff1968",
+  "reference": "Stepakoff (1968)",
+	"bibtex": "Stepakoff1968",
   "comments": "Table 1 for alpha-iron."
 }

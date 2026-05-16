@@ -67,6 +67,7 @@
  [46054.799999999996],
  [50074.128]]
 		],
-  "reference": "Anderson1962",
+  "reference": "Anderson (1962)",
+  "bibtex": "Anderson1962",
   "comments": "HM - H298.15 values"
 }
