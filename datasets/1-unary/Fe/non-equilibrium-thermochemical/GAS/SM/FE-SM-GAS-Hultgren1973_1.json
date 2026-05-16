@@ -1,5 +1,5 @@
 {
-  "components": ["FE", "VA"],
+  "components": ["FE"],
   "phases": ["GAS"],
   "solver": {
 	  "mode": "manual",
